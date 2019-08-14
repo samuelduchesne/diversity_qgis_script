@@ -33,4 +33,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     """
     #
     from .diversity_calc import DiversityFactor
+
     return DiversityFactor(iface)
